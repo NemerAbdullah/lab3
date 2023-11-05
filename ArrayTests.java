@@ -30,5 +30,13 @@ public class ArrayTests {
     assertArrayEquals(new int[]{ 3,2,1 }, ArrayExamples.reversed(input1));
   }
 
+  @Test
+  public void duplicate()
+  {
+    double[] arr = { 4.0,2.0,2.0 };
+
+    assertEquals(3.0, ArrayExamples.averageWithoutLowest(arr),0.0001);
+  }
+
 
 }
