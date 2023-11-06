@@ -1,4 +1,4 @@
-#Part 1
+# Part 1
 
 A failure-inducing input for the buggy program:
 ~~~
@@ -50,7 +50,7 @@ After:
 The issue with the code is that it reverses half the elements, then, when it gets past the middle element, it replaces the elements with those it originally replaced in the first half. For example, the array {1,2,3}, would become {3,2,3}.
 The fix is that we divide the length of the for loop to half the array's length, then switch between the value at index i with the one on the opposite side at arr.length - i - 1. We do this by saving arr[i] to a temporary variable then when we reassign it we replace arr[arr.length - i - 1] with temp. 
 
-#Part 2
+# Part 2
 command grep
 -r: searches recursively within the files. This is useful because it lets us search within the text files for the strings we are looking for. for example, I search for the string "loud" in the file plos:
 ~~~
