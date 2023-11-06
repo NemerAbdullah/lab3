@@ -52,6 +52,7 @@ The fix is that we divide the length of the for loop to half the array's length,
 
 # Part 2
 command grep
+
 -r: searches recursively within the files. This is useful because it lets us search within the text files for the strings we are looking for. for example, I search for the string "loud" in the file plos:
 ~~~
 grep -r "loud" technical/plos
