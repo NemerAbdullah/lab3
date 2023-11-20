@@ -70,8 +70,7 @@ technical/plos/journal.pbio.0020113.txt:        and wolf populations brought to 
 technical/plos/pmed.0020007.txt:        could possibly be the problem with older adults spending their time doing crossword puzzles
 technical/plos/pmed.0020206.txt:        has developed a password-protected Web site, PatientWeb (https://fisher.mgh.harvard.edu/),
 ~~~
-
-source: https://man7.org/linux/man-pages/man1/grep.1.html
+source: searched for grep command line options and entered this website: https://man7.org/linux/man-pages/man1/grep.1.html
 
 
 -l: prints a file name if a match is found within the file. This is helpful because we can determine what files contain the information we need.
@@ -93,8 +92,8 @@ technical/plos/journal.pbio.0020113.txt
 technical/plos/pmed.0020007.txt
 technical/plos/pmed.0020206.txt
 ~~~
+source: searched for grep command line options and entered this website: https://man7.org/linux/man-pages/man1/grep.1.html
 
-source: https://man7.org/linux/man-pages/man1/grep.1.html
 
 -o: only prints the string we are looking for. This is helpful because it is less crowded and easier to read, while still making sure that the string we need is indeed in the file.
 example with "loud" and -r:
@@ -115,7 +114,8 @@ technical/plos/pmed.0020007.txt:sword
 technical/plos/pmed.0020206.txt:sword
 ~~~
 
-source: https://man7.org/linux/man-pages/man1/grep.1.html
+source: searched for grep command line options and entered this website: https://man7.org/linux/man-pages/man1/grep.1.html
+
 
 -n: displays the line number of each result. This is helpful because it can help us locate our information more easily.
 example with "loud" and -r"
@@ -135,6 +135,4 @@ technical/plos/journal.pbio.0020113.txt:10:        and wolf populations brought 
 technical/plos/pmed.0020007.txt:9:        could possibly be the problem with older adults spending their time doing crossword puzzles
 technical/plos/pmed.0020206.txt:141:        has developed a password-protected Web site, PatientWeb (https://fisher.mgh.harvard.edu/),
 ~~~
-
-source: https://man7.org/linux/man-pages/man1/grep.1.html
-
+source: searched for grep command line options and entered this website: https://man7.org/linux/man-pages/man1/grep.1.html
